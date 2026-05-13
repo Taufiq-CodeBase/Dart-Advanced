@@ -1,6 +1,6 @@
 void main() {
-  int num1 = 2;
-  double num2 = 3.77;
+  int num1 = 20;
+  double num2 = 3.7;
   bool isTrue = true;
 
   print("the value of num1 is $num1");
