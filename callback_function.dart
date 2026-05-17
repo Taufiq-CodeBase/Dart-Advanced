@@ -1,0 +1,19 @@
+void main(){
+
+
+    Calculator calc = Calculator();
+    print(calc.calculate(10, 20, calc.add));
+
+}
+
+
+class Calculator{
+    int add(int a,int b) => a+b;
+    int sub(int a,int b) => a-b;
+    int mul(int a,int b) => a*b;
+    double div(int a,int b) => a/b;
+
+    dynamic calculate(int a, int b, Function fn){
+        return fn(a,b);
+    }
+}
